@@ -117,3 +117,22 @@ body {
   background-color: #39d563;
 }
 <br>
+JavaScrift
+<br>
+let display = document.getElementById('display');
+
+function appendToDisplay(value) {
+  display.value += value;
+}
+
+function clearDisplay() {
+  display.value = '';
+}
+
+function calculate() {
+  try {
+    display.value = eval(display.value);
+  } catch (e) {
+    display.value = 'Error';
+  }
+}
