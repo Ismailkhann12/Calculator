@@ -117,7 +117,7 @@ body {
   background-color: #39d563;
 }
 <br>
-JavaScrift
+JavaScript
 <br>
 let display = document.getElementById('display');
 
