@@ -41,3 +41,79 @@ Its my first project in github
   <script src="script.js"></script>
 </body>
 </html>
+<br>
+Css file
+<br>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 260px;
+}
+
+.display {
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.operator {
+  background-color: #fe9241;
+  color: white;
+}
+
+.operator:hover {
+  background-color: #f77b26;
+}
+
+.equal {
+  grid-column: span 2;
+  background-color: #41fe6d;
+  color: white;
+}
+
+.equal:hover {
+  background-color: #39d563;
+}
+<br>
